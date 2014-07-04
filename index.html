@@ -1,506 +1,860 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 
 <html>
-<head>
+  
+  <head>
 
-  <title>Jugaad Cafe</title>
-  
-  <!-- The Meta --> 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <meta name="description" content="Sly Creative Agency" />
-  <meta name="keywords" content="jquery, css3, html5, animation, mobile, esponsive, image, slider, slideshow, thumbnails, preview" />
-  <meta name="author" content="Doriana" />
-  
-  <link rel="shortcut icon" href="images/favicon.ico" />
-  
-  <!-- The Stylesheets -->
-  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="stylesheets/style.css" type="text/css" />
-  <link rel="stylesheet" href="stylesheets/prettyPhoto.css" type="text/css" media="screen" />
-  <link rel="stylesheet" href="stylesheets/animate.css" type="text/css" />
-  <link rel="stylesheet" media="screen" href="stylesheets/mobile.css" type="text/css" />
-  
-  <!--[if IE]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-  <!--[if lte IE 7]>
-      <script src="javascripts/IE8.js" type="text/javascript"></script><![endif]-->
-  <!--[if lt IE 7]>
-      <link rel="stylesheet" type="text/css" media="all" href="stylesheets/ie6.css"/><![endif]-->
-  
-  <!-- The Fonts -->
-  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
-  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
-  
-  
-  <script type="text/javascript" src="javascripts/modernizr.custom.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-</head>
+    <title>Style Interior</title>
 
+    <link rel="icon" type="image/ico" href="/images/favicon.ico">
+    <!--[if IE 8]><html lang="en" class="ie8"><![endif]-->
+    <!--[if IE 9]><html lang="en" class="ie9"><![endif]-->	
+    <link href="stylesheets/bootstrap.css" rel="stylesheet"/>
+    <link href="stylesheets/style.css" rel="stylesheet"/>	
+    <link href="stylesheets/animations.css" rel="stylesheet"/>
+    <link href="stylesheets/custom-animations.css" rel="stylesheet"/>	
+    <link rel="stylesheet" href="stylesheets/magnific-popup.css" type="text/css">	
+    <!--[if IE 8]>
+    <link href="stylesheets/ie8.css" rel="stylesheet"/>
+    <![endif]-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
-<body data-spy="scroll">
+  </head>
 
-  <div id="wrapper">
+  <body data-spy="scroll"  data-target=".navbar">	
+
+    <!-- PRELOADER -->
+    <div id="preloader">
+      <div id="status">&nbsp;</div>
+    </div>
 
     
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-  
-  <div class="container">
 
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#top-bar">
-	<img src="images/logo.png" alt="Jugaad Cafe" />
+<div id="home">
+  
+  <!-- HOME SLIDER -->
+  <div class="home-slider main-section gray-bg">
+
+    <div class="text-center">
+      <a class="navbar-brand smooth" href="#home">
+	<img src="images/logo.png" alt="logo"/> 
       </a>
     </div>
 
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse navbar-ex1-collapse">
-      <ul class="nav navbar-nav navbar-right" >
-	<li><a href="#top-bar">Home</a></li>
-	<li><a href="#menu">Menu</a> </li>
-	<li><a href="#about">About</a> </li>
-	<li><a href="#contact">Contact</a></li>
-      </ul>	
+    <div class="caroufred green">
+      <ul class="gallery uppercase">
+	<li>	
+	  <img src="images/kitchen_bath1.jpg" alt="img"/> 
+	  <div class="home-overlay colored-text text-center">
+	    <h4><span>Kitchen & Bath</span></h4>
+	  </div>
+	</li>
+	<li>	
+	  <img src="images/livingroom2.jpg" alt="img"/> 
+	  <div class="home-overlay colored-text text-center">
+	    <h4><span>Living Rooms</span></h4>
+	  </div>
+	</li>
+	<li>	
+	  <img src="images/bedroom2.jpg" alt="img"/> 
+	  <div class="home-overlay colored-text text-center">
+	    <h4><span>Bedrooms</span></h4>
+	  </div>
+	</li>
+	<li>	
+	  <img src="images/outdoors1.jpg" alt="img"/> 
+	  <div class="home-overlay colored-text text-center">
+	    <h4><span>Outdoors</span></h4>
+	  </div>
+	</li>
+	<li>	
+	  <img src="images/offices1.jpg" alt="img"/> 
+	  <div class="home-overlay colored-text text-center">
+	    <h4><span>Offices</span></h4>
+	  </div>
+	</li>
+      </ul>
+      <div class="carousel_pagination-outer">
+	<div id="caroufred_home_slide_pager" class="carousel_pagination left"></div>
+      </div>
     </div>
-    
-  </div>
 
+  </div>
+	
+  <div id="navigate" class="my-sticky-element col-xs-12 col-sm-12 col-md-12 col-lg-12">		
+    
+<nav class="navbar main-menu gray-bg" role="navigation">
+  
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+      <i class="icon-angle-down"></i>
+    </button>						
+  </div>								               
+  
+  <div class="collapse navbar-collapse navbar-ex1-collapse uppercase">
+  
+    <ul class="nav navbar-nav text-center">
+      <li><a href="#home" class="colored-text"><i class="icon-circle"></i><span>Home</span></a></li>
+      <li><a href="#aboutus"><i class="icon-circle"></i><span>About</span></a></li>
+      <li><a href="#services" class="colored-text"><i class="icon-circle"></i><span>Services</span></a></li>
+      <li><a href="#projects" class="colored-text"><i class="icon-circle"></i><span>Products</span></a></li>
+      <li><a href="#contact" class="colored-text"><i class="icon-circle"></i><span>Contact</span></a></li>
+    </ul>
+
+  </div>
+  
 </nav>
 
-    
-    
-
-
-<div id="top-bar">
-
-  <div class="container">
-
-    <div class="row">
- 
-      <div class="col-md-4">
-	<div class="program">Mon to Fri - 8AM to 11PM<br>Sat & Sun - 9AM to 12AM</div>
-      </div>
-      
-      <div class="col-md-4">
-	<div class="reservation"><a href="#contact">Contact Us</a></div>
-      </div>
-
-      <div class="col-md-4">
-	<div class="social-media">
-	  <span class="social">
-
-	    <a href="http://www.facebook.com" class="fa-facebook"></a>
-
-	    <a href="http://www.twitter.com" class="fa-twitter"></a>
-
-	    <a href="http://plus.google.com" class="fa-google-plus"></a>
-
-	    <a href="http://www.pintrest.com" class="fa-pinterest"></a>
-
-	    <a href="http://www.linkedin.com" class="fa-linkedin"></a>
-
-	    <a href="http://www.youtube.com" class="fa-youtube"></a>
-
-	    <a href="http://www.flickr.com" class="fa-flickr"></a>
-
-	  </span>
-	</div>
-      </div>
-    
-    </div>
-
-  </div>
+    <div class="menu_bottom bot_angle_right"></div>
+  </div> 
 
 </div>
 
 
-<div style="clear: both;"></div>
-		
+<div id="page-wrapper">		
+  
+<div id="aboutus" class="main-section not-home">
 
-<div id="intro">
+  
+<div class="container">				
+  <div class="title page-title text-center">
+    <h1 class="dark-text">Why Us</h1>
+    <span class="underline green"></span>
+  </div>					
+</div>
 
-  <div class="headline-bg">
-
-    <div class="container">
-
-      <img class="headline-left-content animated bounceIn tada" alt="Jugaad Cafe" src="images/badge.png" />
-      
-      <div class="headline-right-content animated bounceInDown">
-
-	<div>
-	  <h1>Jaayka... India Ka!</h1>
-	  Breakfast | Lunch | Snacks | Dinner
-	</div>
-
-	<br/>
-	
-	<div class="row">
-	  <div class="headline-list">
-	    <h1>Veg & Non-Veg Restaurant</h1>
-	  </div>
-	  <div class="headline-button">
-	    <a href="#menu">Check out our menu!</a>
-	  </div>
-	</div>
-
-      </div>
-      
-    </div>
-
+<div class="container text-center pad-bot about-description">				
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 animated-scale-up">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
   </div>
+</div>
+
+<div class="container pad-bot highlighted">	
+  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 highlights">
+    <div class="about-overlay-under text-center"><div class="about-overlay-above"><i class="icon-ok"></i></div></div>
+    <h6><span class="highlights-first">INNOVATIVE</span><span>DESIGN</span></h6>
+  </div>	
+  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 highlights">
+    <div class="about-overlay-under text-center"><div class="about-overlay-above"><i class="icon-ok"></i></div></div>
+    <h6><span class="highlights-first">UNIQUE</span><span>STYLE</span></h6>
+  </div>	
+  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 highlights">
+    <div class="about-overlay-under text-center"><div class="about-overlay-above"><i class="icon-ok"></i></div></div>
+    <h6><span class="highlights-first">PERSONAL</span><span>ATTENTION</span></h6>
+  </div>	
+  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 highlights">
+    <div class="about-overlay-under text-center"><div class="about-overlay-above"><i class="icon-ok"></i></div></div>
+    <h6><span class="highlights-first">EXCEPTIONAL</span><span>SERVICE</span></h6>
+  </div>	
+</div>
+
+
+  
+<div class="testimonials">
+
+  <div class="about_bottom bot_angle_left"></div>
+
+  <div class="container page-title  pad-bot"> 
+
+    <div class="animated-fade colored-text col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12">
+
+      <div class="caroufred-text">
+
+	<ul class="testimonials">
+	  
+	  <li>	
+	    <p class="testimonials-img"><img src="images/testimonials1.jpg" alt="img" /></p>                  
+	    <p class="testimonials-quote text-center italic-text"><span>I think it's great and will be recommending it! I use a lot of themes, usually sticking with the same company to stay familiar with their setups, I thought I'd try this for a new project and it's great!</span>
+	      <cite>&#8212; Jennifer Robinson, CEO, Sonic</cite>
+	    </p>											
+	  </li>
+	  <li>	
+	    <p class="testimonials-img"><img src="images/testimonials1.jpg" alt="img" /></p>                  
+	    <p class="testimonials-quote text-center italic-text"><span>I think it's great and will be recommending it! I use a lot of themes, usually sticking with the same company to stay familiar with their setups, I thought I'd try this for a new project and it's great!</span>
+	      <cite>&#8212; Jennifer Robinson, CEO, Sonic</cite>
+	    </p>											
+	  </li>
+	  <li>	
+	    <p class="testimonials-img"><img src="images/testimonials1.jpg" alt="img" /></p>                  
+	    <p class="testimonials-quote text-center italic-text"><span>I think it's great and will be recommending it! I use a lot of themes, usually sticking with the same company to stay familiar with their setups, I thought I'd try this for a new project and it's great!</span>
+	      <cite>&#8212; Jennifer Robinson, CEO, Sonic</cite>
+	    </p>											
+	  </li>
+
+	</ul>
+	
+	<div id="caroufred_testimonials_pager" class="carousel_pagination left"></div>
+
+      </div>	
+
+    </div>											
+  
+  </div>
+
+  <div class="team_top top_angle_left"></div>
 
 </div>	
 
 
-<section class="ss-style-bottom"></section>
-		
-
-<div id="menu">
-  <h2>. . .<br/><br/>Menu</h2> 	
-  <div class="container">
-    <center>
-      <img class="img-responsive" src="images/jugaad/jugaad-menu.jpg">
-    </center>
-  </div>
-</div>
-
-
-<section class="ss-style-top"></section>
-	
-
-<div id="about">
-
-  <div class="container">
-
-    <div class="about-title"><h2>. . .<br/><br/>About Our Cafe</h2></div>
-
-    <div class="row">	
-      <div class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod eu orci auctor hendrerit. Integer a risus vitae nibh malesuada accumsan. Integer vitae erat posuere arcu suscipit dapibus. Vestibulum varius nunc vehicula magna posuere, et mattis diam scelerisque. Nullam scelerisque id nulla eget porta. Aenean aliquet elit dui, ac dignissim magna iaculis nec. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ut dignissim lectus.</div>
-    </div>
-
-    <div class="row">
-      <div class="prettyPhoto-gallery">
-	<ul id="flexisel">
-	  
-	  <li>
-	    <a data-rel="prettyPhoto[about]" href="images/about/01.png">
-	      <img src="images/about/thumbs/01.png" alt="Hearts Espresso" />
-	    </a>
-	  </li>
-	  <li>
-	    <a data-rel="prettyPhoto[about]" href="images/about/02.png">
-	      <img src="images/about/thumbs/02.png" alt="Cake & Tea" />
-	    </a>
-	  </li>
-	  <li>
-	    <a data-rel="prettyPhoto[about]" href="images/about/03.png">
-	      <img src="images/about/thumbs/03.png" alt="Frutty Shake" />
-	    </a>
-	  </li>
-	  <li>
-	    <a data-rel="prettyPhoto[about]" href="images/about/04.png">
-	      <img src="images/about/thumbs/04.png" alt="Cute Muffin" />
-	    </a>
-	  </li>
-	  <li>
-	    <a data-rel="prettyPhoto[about]" href="images/about/05.png">
-	      <img src="images/about/thumbs/05.png" alt="Fresh Cookies" />
-	    </a>
-	  </li>
-
-	</ul>  
-      </div>
-    </div>
-    
-    <div class="row about-icon">
-      <div class="fa-calendar"></div>
-    </div>
-    <div class="row">
-      <div class="about-events">We are organizing all kinds of events, from private parties to birthdays or anniversaries.</div>
-      <a href="#contact"><div class="about-button">Contact us for more details and reservations!</div></a>
-    </div>
-
-  </div>
-
-</div>
-
-
-<section class="ss-style-bottom"></section>
-	
-
-<div id="contact">
-
-  <div class="contact">
-    <h2>. . .<br/><br/>Contact Us</h2> 
-    <br>
-  </div>	
-
-  <div class="container">	
   
-    <div class="row">
+<div class="team blue-bg green">
 
-      <div class="col-md-6">
-	<iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-		src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3887.7729443359995!2d77.5763667!3d12.9863693!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae161654fad2c1%3A0xa0272a52eeec13cc!2s19%2F1%2C+Railway+Parallel+Rd%2C+Nehru+Nagar%2C+Seshadripuram!5e0!3m2!1sen!2sin!4v1400067110697">
-	</iframe>
+  <div class="container">					
+    <div class="title page-title text-center">
+      <h1 class="light-text">Our Staff</h1>
+      <span class="underline white"></span>
+    </div>													
+  </div>
+
+  <div class="container pad-bot">
+    <div class="team-members">
+     
+
+      <div class="col-xs-12 col-sm-4 col-lg-4 smxs-margin">
+
+	<div class="block-inner">
+	  <div class="team-img">
+	    <img src="images/team1.jpg" alt="team" />
+	    <div class="overlay-img text-center">
+	      <div class="contact-icons">
+		<div class="contact-icons-inner">											
+		  <a href="http://www.twitter.com"><i class="icon-twitter"></i></a>
+		  <a href="http://www.facebook.com"><i class="icon-facebook"></i></a>
+		  <a href="http://www.google.com"><i class="icon-google-plus"></i></a>
+		</div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<div class="names text-center">								
+	  <span class="uppercase name">Project Manager</span>
+	  <h5 class="text-center colored-text uppercase">Nicole Smith</h5>
+	  <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+	</div>							
+
       </div>
 
-      <div class="col-md-6">
-	<div class="contact-img"><img class="contact-image" src="images/contact.png" /></div>
-	<div class="contact-details-title">Jugaad Cafe Pvt Ltd.</div>
-	<div class="contact-details">Shop No. 10, Sukhwani Campus,<br>Opposite Vallabhnagar Bus Stand,<br>Pimpri, India - 411018</div>
-	<div class="contact-details">hello@cafejugaad.in</div>
+
+      <div class="col-xs-12 col-sm-4 col-lg-4 smxs-margin">
+
+	<div class="block-inner">
+	  <div class="team-img">
+	    <img src="images/team1.jpg" alt="team" />
+	    <div class="overlay-img text-center">
+	      <div class="contact-icons">
+		<div class="contact-icons-inner">											
+		  <a href="http://www.twitter.com"><i class="icon-twitter"></i></a>
+		  <a href="http://www.facebook.com"><i class="icon-facebook"></i></a>
+		  <a href="http://www.google.com"><i class="icon-google-plus"></i></a>
+		</div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<div class="names text-center">								
+	  <span class="uppercase name">Project Manager</span>
+	  <h5 class="text-center colored-text uppercase">Nicole Smith</h5>
+	  <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+	</div>							
+
       </div>
 
+
+      <div class="col-xs-12 col-sm-4 col-lg-4 smxs-margin">
+
+	<div class="block-inner">
+	  <div class="team-img">
+	    <img src="images/team1.jpg" alt="team" />
+	    <div class="overlay-img text-center">
+	      <div class="contact-icons">
+		<div class="contact-icons-inner">											
+		  <a href="http://www.twitter.com"><i class="icon-twitter"></i></a>
+		  <a href="http://www.facebook.com"><i class="icon-facebook"></i></a>
+		  <a href="http://www.google.com"><i class="icon-google-plus"></i></a>
+		</div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<div class="names text-center">								
+	  <span class="uppercase name">Project Manager</span>
+	  <h5 class="text-center colored-text uppercase">Nicole Smith</h5>
+	  <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+	</div>							
+
+      </div>
+
+
+    </div>
+  </div>					
+  
+  <div class="team_bottom top_angle_right"></div>
+
+</div>	
+
+  
+</div>
+
+  
+<div id="services" class="main-section not-home ">	
+
+  <div class="services gray-light-bg">			
+
+    <div class="container">					
+      <div class="title page-title text-center">
+	<h1 class="dark-text">Services</h1>
+	<span class="underline green"></span>
+      </div>
+    </div>	
+    
+    
+<div class="container pad-bot">
+
+  <div class="content green">					
+
+    <div class="service">
+      <div class="col-lg-6 col-lg-offset-0 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 smxs-margin animated-slide-top">
+	<div class="service-icon colored-background"><i class="icon-pencil"></i></div>
+	<h5 class="uppercase">Concept</h5>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+	<div class="service-description"></div>
+      </div>	
+      <div class="col-lg-6 col-lg-offset-0 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 smxs-margin animated-slide-top">
+	<div class="service-icon colored-background"><i class="icon-picture"></i></div>
+	<h5 class="uppercase">Design</h5>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+	<div class="service-description"></div>
+      </div>	
+    </div>									
+    <div class="service">
+      <div class="col-lg-6 col-lg-offset-0 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 smxs-margin animated-slide-top">
+	<div class="service-icon colored-background"><i class="icon-cogs"></i></div>
+	<h5 class="uppercase">Construction</h5>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+	<div class="service-description"></div>
+      </div>	
+      <div class="col-lg-6 col-lg-offset-0 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 smxs-margin animated-slide-top">
+	<div class="service-icon colored-background"><i class="icon-building"></i></div>
+	<h5 class="uppercase">Installation</h5>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+	<div class="service-description"></div>
+      </div>	
+    </div>									
+
+  </div>
+
+</div>
+
+
+    
+<div class="project-list">
+
+  <div class="project_top bot_angle_right"></div>	
+  <div class="white">					
+    <div class="title page-title text-center colored-text">
+      <h1 class="light-text">Project List</h1>
+      <span class="underline white"></span>
+    </div>									
+  </div>
+  
+  <div class="caroufred green pad-bot animated-fade">
+
+    <ul class="project-list-gallery">               					
+    
+      <li class="project-list-item">
+	<a href="#" class="project-popover" data-content="Springer Center Food Court, NM State University; Las Cruces, NM" data-original-title="Educational">
+	  <img src="images/kitchen_bath1.jpg" alt="img"/>
+	</a>
+      </li>
+      <li class="project-list-item">
+	<a href="#" class="project-popover" data-content="Corbett Square; Albuquerque, NM" data-original-title="Commercial">
+	  <img src="images/livingroom1.jpg" alt="img"/>
+	</a>
+      </li>
+      <li class="project-list-item">
+	<a href="#" class="project-popover" data-content="Springer Center Food Court, NM State University; Las Cruces, NM" data-original-title="Hospitality">
+	  <img src="images/livingroom2.jpg" alt="img"/>
+	</a>
+      </li>
+      <li class="project-list-item">
+	<a href="#" class="project-popover" data-content="Springer Center Food Court, NM State University; Las Cruces, NM" data-original-title="Residential">
+	  <img src="images/kitchen_bath2.jpg" alt="img"/>
+	</a>
+      </li>
+      <li class="project-list-item">
+	<a href="#" class="project-popover" data-content="Springer Center Food Court, NM State University; Las Cruces, NM" data-original-title="Commercial">
+	  <img src="images/bedroom1.jpg" alt="img"/>
+	</a>
+      </li>
+      <li class="project-list-item">
+	<a href="#" class="project-popover" data-content="Springer Center Food Court, NM State University; Las Cruces, NM" data-original-title="Residential">
+	  <img src="images/bedroom2.jpg" alt="img"/>
+	</a>
+      </li>
+      <li class="project-list-item">
+	<a href="#" class="project-popover" data-content="Springer Center Food Court, NM State University; Las Cruces, NM" data-original-title="Educational">
+	  <img src="images/outdoors1.jpg" alt="img"/>
+	</a>
+      </li>
+      <li class="project-list-item">
+	<a href="#" class="project-popover" data-content="Springer Center Food Court, NM State University; Las Cruces, NM" data-original-title="Hospitality">
+	  <img src="images/offices1.jpg" alt="img"/>
+	</a>
+      </li>
+      <li class="project-list-item">
+	<a href="#" class="project-popover" data-content="Axel Hair Studio; Santa Fe, NM" data-original-title="Commercial">
+	  <img src="images/company1.jpg" alt="img"/>
+	</a>
+      </li>
+      <li class="project-list-item">
+	<a href="#" class="project-popover" data-content="Camps residence; Los Cerrillos, NM" data-original-title="Residential">
+	  <img src="images/magazine1.jpg" alt="img"/>
+	</a>
+      </li>
+
+    </ul>
+    
+    <div id="caroufred_project_list_gallery" class="carousel_pagination left"></div>		
+
+  </div>
+ 
+ <div class="project_bottom top_angle_right"></div>
+
+</div>	
+
+						
+    
+<div class="process gray-light-bg pad-bot">					
+
+  <div class="title page-title text-center">
+    <h1 class="dark-text">Process</h1>
+    <span class="underline green"></span>
+  </div>				
+
+  <div class="container green process-description">
+
+    <ul class="nav-tabs col-lg-5 col-md-6 col-sm-5 col-xs-12 uppercase animated-scale-up" id="process-tabs">
+
+      <li class='active'>
+	<i class="icon-circle"></i> <a href='#management'>Project Management</a> <i class="icon-circle"></i>
+      </li>
+      <li >
+	<i class="icon-circle"></i> <a href='#plan'>Interior Design Property Plan</a> <i class="icon-circle"></i>
+      </li>
+      <li >
+	<i class="icon-circle"></i> <a href='#materials'>Materials Presentation</a> <i class="icon-circle"></i>
+      </li>
+      <li >
+	<i class="icon-circle"></i> <a href='#ffespecifications'>Furniture and Equipment Specifications</a> <i class="icon-circle"></i>
+      </li>
+      <li >
+	<i class="icon-circle"></i> <a href='#purchasing'>Purchasing</a> <i class="icon-circle"></i>
+      </li>
+      <li >
+	<i class="icon-circle"></i> <a href='#installation'>Installation</a> <i class="icon-circle"></i>
+      </li>
+      <li >
+	<i class="icon-circle"></i> <a href='#documents'>Construction Drawings and Documents</a> <i class="icon-circle"></i>
+      </li>
+
+    </ul>
+
+    <div class="tab-content col-lg-7 col-md-6 col-sm-7 col-xs-12 animated-scale-up">
+
+      
+      <div class="tab-pane active" id="management">
+	details
+      </div>
+      
+      <div class="tab-pane " id="plan">
+	details
+      </div>
+      
+      <div class="tab-pane " id="materials">
+	details
+      </div>
+      
+      <div class="tab-pane " id="ffespecifications">
+	details
+      </div>
+      
+      <div class="tab-pane " id="purchasing">
+	details
+      </div>
+      
+      <div class="tab-pane " id="installation">
+	details
+      </div>
+      
+      <div class="tab-pane " id="documents">
+	details
+      </div>
+      
     </div>
 
   </div>
+</div>							
 
-</div>
-
-
-		
-
-    
-    
-<div class="copyright">
-
-  <div class="row">
-
-    <div class="col-sm-8 text-left">&copy; 2014 Jugaad Cafe. All rights reserved.</div>
-
-    <div class="col-sm-4 text-right"><small>Powered by <a target="_blank" href="http://www.crowlventures.com">Crowl Ventures</a></small></div>
 
   </div>
 
 </div>
 
-    
+  
+<div class="project-list">
+
+  <div class="project_top bot_angle_right"></div>	
+  <div class="white">					
+    <div class="title page-title text-center colored-text">
+      <h1 class="light-text">Project List</h1>
+      <span class="underline white"></span>
+    </div>									
   </div>
   
+  <div class="caroufred green pad-bot animated-fade">
+
+    <ul class="project-list-gallery">               					
+    
+      <li class="project-list-item">
+	<a href="#" class="project-popover" data-content="Springer Center Food Court, NM State University; Las Cruces, NM" data-original-title="Educational">
+	  <img src="images/kitchen_bath1.jpg" alt="img"/>
+	</a>
+      </li>
+      <li class="project-list-item">
+	<a href="#" class="project-popover" data-content="Corbett Square; Albuquerque, NM" data-original-title="Commercial">
+	  <img src="images/livingroom1.jpg" alt="img"/>
+	</a>
+      </li>
+      <li class="project-list-item">
+	<a href="#" class="project-popover" data-content="Springer Center Food Court, NM State University; Las Cruces, NM" data-original-title="Hospitality">
+	  <img src="images/livingroom2.jpg" alt="img"/>
+	</a>
+      </li>
+      <li class="project-list-item">
+	<a href="#" class="project-popover" data-content="Springer Center Food Court, NM State University; Las Cruces, NM" data-original-title="Residential">
+	  <img src="images/kitchen_bath2.jpg" alt="img"/>
+	</a>
+      </li>
+      <li class="project-list-item">
+	<a href="#" class="project-popover" data-content="Springer Center Food Court, NM State University; Las Cruces, NM" data-original-title="Commercial">
+	  <img src="images/bedroom1.jpg" alt="img"/>
+	</a>
+      </li>
+      <li class="project-list-item">
+	<a href="#" class="project-popover" data-content="Springer Center Food Court, NM State University; Las Cruces, NM" data-original-title="Residential">
+	  <img src="images/bedroom2.jpg" alt="img"/>
+	</a>
+      </li>
+      <li class="project-list-item">
+	<a href="#" class="project-popover" data-content="Springer Center Food Court, NM State University; Las Cruces, NM" data-original-title="Educational">
+	  <img src="images/outdoors1.jpg" alt="img"/>
+	</a>
+      </li>
+      <li class="project-list-item">
+	<a href="#" class="project-popover" data-content="Springer Center Food Court, NM State University; Las Cruces, NM" data-original-title="Hospitality">
+	  <img src="images/offices1.jpg" alt="img"/>
+	</a>
+      </li>
+      <li class="project-list-item">
+	<a href="#" class="project-popover" data-content="Axel Hair Studio; Santa Fe, NM" data-original-title="Commercial">
+	  <img src="images/company1.jpg" alt="img"/>
+	</a>
+      </li>
+      <li class="project-list-item">
+	<a href="#" class="project-popover" data-content="Camps residence; Los Cerrillos, NM" data-original-title="Residential">
+	  <img src="images/magazine1.jpg" alt="img"/>
+	</a>
+      </li>
+
+    </ul>
+    
+    <div id="caroufred_project_list_gallery" class="carousel_pagination left"></div>		
+
+  </div>
+ 
+ <div class="project_bottom top_angle_right"></div>
+
+</div>	
+
   
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-  
-  <script type="text/javascript" src="javascripts/jquery.easing.1.3.js"></script>
-  <script type="text/javascript" src="javascripts/jquery.parallax-1.1.3.js"></script>
-  <script type="text/javascript" src="javascripts/jquery.localscroll-1.2.7-min.js"></script>
-  <script type="text/javascript" src="javascripts/jquery.scrollTo-1.4.2-min.js"></script>
-  <script type="text/javascript" src="javascripts/jquery.flexisel.js"></script>
-  <script type="text/javascript" src="javascripts/jquery.prettyPhoto.js"></script>
-  <script type="text/javascript" src="javascripts/main.js"></script>
-  
-  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>  
-  
-  <script type="text/javascript">
-    /*global $:false*/
-    /*global jQuery:false*/
-    /*global google:false*/
-    /*jshint unused: vars */
-    /*jshint unused: false */
-    
-    
-    /* -- PRETTY PHOTO */
-    $(document).ready(function(){
-    $("a[data-rel^='prettyPhoto']").prettyPhoto();
-    });
-    
-    
-    /* -- PARALLAX EFFECT SETTINGS -- */
-    $(document).ready(function() {
-    "use strict";
-    $('#nav').localScroll({
-    target:'#content'
-    });   
-    
-    //.parallax(xPosition, speedFactor, outerHeight) options:
-    //xPosition - Horizontal position of the element
-    //inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
-    //outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
-    $('#intro').parallax("50%", 0.5);
-    $('#deal').parallax("50%", 0.2);
-    $('#about').parallax("50%", 0.5);
-    $('#menu').parallax("50%", 0.2);
-    $('#facts').parallax("50%", 0.5);
-    $('#events').parallax("50%", 0.2);
-    $('#contact').parallax("50%", 0.5);
-    });
-    
-    
-    /* -- SCROLLING -- */
-    $('#navbar').scrollspy();
-    
-    
-    /* -- FLEXISEL -- */
-    $("#flexisel").flexisel({
-      visibleItems: 5,
-      animationSpeed: 1000,
-      autoPlay: true,
-      autoPlaySpeed: 3000,            
-      pauseOnHover: true,
-      enableResponsiveBreakpoints: true,
-      responsiveBreakpoints: { 
-        portrait: { 
-          changePoint:480,
-          visibleItems: 1
-        }, 
-        landscape: { 
-          changePoint:640,
-          visibleItems: 2
-        },
-        tablet: { 
-          changePoint:768,
-          visibleItems: 3
-        }
-      }
-    });	
+<div class="process gray-light-bg pad-bot">					
+
+  <div class="title page-title text-center">
+    <h1 class="dark-text">Process</h1>
+    <span class="underline green"></span>
+  </div>				
+
+  <div class="container green process-description">
+
+    <ul class="nav-tabs col-lg-5 col-md-6 col-sm-5 col-xs-12 uppercase animated-scale-up" id="process-tabs">
+
+      <li class='active'>
+	<i class="icon-circle"></i> <a href='#management'>Project Management</a> <i class="icon-circle"></i>
+      </li>
+      <li >
+	<i class="icon-circle"></i> <a href='#plan'>Interior Design Property Plan</a> <i class="icon-circle"></i>
+      </li>
+      <li >
+	<i class="icon-circle"></i> <a href='#materials'>Materials Presentation</a> <i class="icon-circle"></i>
+      </li>
+      <li >
+	<i class="icon-circle"></i> <a href='#ffespecifications'>Furniture and Equipment Specifications</a> <i class="icon-circle"></i>
+      </li>
+      <li >
+	<i class="icon-circle"></i> <a href='#purchasing'>Purchasing</a> <i class="icon-circle"></i>
+      </li>
+      <li >
+	<i class="icon-circle"></i> <a href='#installation'>Installation</a> <i class="icon-circle"></i>
+      </li>
+      <li >
+	<i class="icon-circle"></i> <a href='#documents'>Construction Drawings and Documents</a> <i class="icon-circle"></i>
+      </li>
+
+    </ul>
+
+    <div class="tab-content col-lg-7 col-md-6 col-sm-7 col-xs-12 animated-scale-up">
+
+      
+      <div class="tab-pane active" id="management">
+	details
+      </div>
+      
+      <div class="tab-pane " id="plan">
+	details
+      </div>
+      
+      <div class="tab-pane " id="materials">
+	details
+      </div>
+      
+      <div class="tab-pane " id="ffespecifications">
+	details
+      </div>
+      
+      <div class="tab-pane " id="purchasing">
+	details
+      </div>
+      
+      <div class="tab-pane " id="installation">
+	details
+      </div>
+      
+      <div class="tab-pane " id="documents">
+	details
+      </div>
+      
+    </div>
+
+  </div>
+</div>							
+
+  <!-- <div class="project_top bot_angle_right"></div> -->
+  <!--       <div id="projects" class="main-section not-home">
+	<div class="pad-bot">
+	  <div class="container">								
+	    <div class="title page-title text-center">
+	      <h1 class="dark-text">Products</h1>
+	      <span class="underline green"></span>
+	    </div>				
+	  </div>	
+	  <div class="green animated-fade">
+	    <div class="portfolioFilter text-center uppercase">
+	      <span>Filter:</span>
+	      <a href="#" data-filter="*" class="current">All</a>
+	      <a href="#" data-filter=".kitchen">Kitchen & Bath</a>
+	      <a href="#" data-filter=".livingrooms">Living Rooms</a>
+	      <a href="#" data-filter=".beedrooms">Bedrooms</a>
+	      <a href="#" data-filter=".offices">Offices</a>
+	      <a href="#" data-filter=".outdoors">Outdoors</a>
+	    </div>
+	    <div id="container" class="portfolioContainer text-center">  
+	      <div class="kitchen">        
+		<div class="isotope-img">
+		  <img src="images/kitchen_bath1.jpg" alt="image" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"/><div class="isotope-overlay"><a class="image-link" href="images/kitchen_bath1.jpg"><i class="icon-eye-open tips" data-placement="top" data-toggle="tooltip" title="Click to Zoom"></i></a></div>
+		</div>
+		<div class="isotope-description">
+		  <p class="product-type uppercase">Kitchen & Bath</p>
+		  <h6 class="tile-bg-title colored-text">"Dolphin"</h6>
+		  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna et.</p>									
+		</div>
+	      </div>
+	      <div class="offices">                
+		<div class="isotope-img">
+		  <img src="images/offices1.jpg" alt="image" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"/><div class="isotope-overlay"><a class="image-link" href="images/offices1.jpg"><i class="icon-eye-open tips" data-placement="top" data-toggle="tooltip" title="Click to Zoom"></i></a></div>
+		</div>
+		<div class="isotope-description">
+		  <p class="product-type uppercase">Offices</p>
+		  <h6 class="tile-bg-title colored-text">"Angelo"</h6>
+		  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna et. </p>									
+		</div>
+	      </div>
+	      <div class="livingrooms">    
+		<div class="isotope-img">
+		  <img src="images/livingroom2.jpg" alt="image" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"/><div class="isotope-overlay"><a class="image-link" href="images/livingroom2.jpg"><i class="icon-eye-open tips" data-placement="top" data-toggle="tooltip" title="Click to Zoom"></i></a></div>
+		</div>
+		<div class="isotope-description">
+		  <p class="product-type uppercase">Living Rooms</p>
+		  <h6 class="tile-bg-title colored-text">"Marina"</h6>
+		  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna et. </p>									
+		</div>
+	      </div>
+	      <div class="kitchen">                
+		<div class="isotope-img">
+		  <img src="images/kitchen_bath2.jpg" alt="image" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"/><div class="isotope-overlay"><a class="image-link" href="images/kitchen_bath2.jpg"><i class="icon-eye-open tips" data-placement="top" data-toggle="tooltip" title="Click to Zoom"></i></a></div>
+		</div>
+		<div class="isotope-description">
+		  <p class="product-type uppercase">Kitchen & Bath</p>
+		  <h6 class="tile-bg-title colored-text">"Shark"</h6>
+		  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna et. </p>									
+		</div>
+	      </div>
+	      <div class="beedrooms">        
+		<div class="isotope-img">
+		  <img src="images/bedroom1.jpg" alt="image" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"/><div class="isotope-overlay"><a class="image-link" href="images/bedroom1.jpg"><i class="icon-eye-open tips" data-placement="top" data-toggle="tooltip" title="Click to Zoom"></i></a></div>
+		</div>
+		<div class="isotope-description">
+		  <p class="product-type uppercase">Bedrooms</p>
+		  <h6 class="tile-bg-title colored-text">"Moon"</h6>
+		  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna et. </p>									
+		</div>
+	      </div>
+	      <div class="outdoors">                
+		<div class="isotope-img">
+		  <img src="images/outdoors1.jpg" alt="image" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"/><div class="isotope-overlay"><a class="image-link" href="images/outdoors1.jpg"><i class="icon-eye-open tips" data-placement="top" data-toggle="tooltip" title="Click to Zoom"></i></a></div>
+		</div>
+		<div class="isotope-description">
+		  <p class="product-type uppercase">Outdoors</p>
+		  <h6 class="tile-bg-title colored-text">"Forest"</h6>
+		  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna et. </p>									
+		</div>
+	      </div>
+	      <div class="livingrooms">                
+		<div class="isotope-img">
+		  <img src="images/livingroom1.jpg" alt="image" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"/><div class="isotope-overlay"><a class="image-link" href="images/livingroom1.jpg"><i class="icon-eye-open tips" data-placement="top" data-toggle="tooltip" title="Click to Zoom"></i></a></div>
+		</div>
+		<div class="isotope-description">
+		  <p class="product-type uppercase">Living Rooms</p>
+		  <h6 class="tile-bg-title colored-text">"Jenny"</h6>
+		  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna et. </p>									
+		</div>
+	      </div>
+	      <div class="beedrooms">                
+		<div class="isotope-img">
+		  <img src="images/bedroom2.jpg" alt="image" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"/><div class="isotope-overlay"><a class="image-link" href="images/bedroom2.jpg"><i class="icon-eye-open tips" data-placement="top" data-toggle="tooltip" title="Click to Zoom"></i></a></div>
+		</div>
+		<div class="isotope-description">
+		  <p class="product-type uppercase">Bedrooms</p>
+		  <h6 class="tile-bg-title colored-text">"Dreamy"</h6>
+		  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna et. </p>									
+		</div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<div class="portfolio_bottom bot_angle_left blue-bg"></div>
+      </div>		
+ -->
+        <div id="contact" class="main-section not-home green">	
+	<div class="contact pad-bot blue-bg">
+	  <div class="container">
+	    <div class="title page-title text-center">
+	      <h1 class="light-text">Contact</h1>
+	      <span class="underline white"></span>
+	    </div>	
+	  </div>																
+	  <div class="container">
+	    <!-- ADDRESSES AND SOCIALS -->
+	    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 smxs-margin animated-slide-top">																				
+	      <h6 class="uppercase colored-text">Address</h6>
+	      <p class="address">
+		Harbor Blvd
+		<br>
+		Costa Mesa, CA 92627
+		<br>
+		United States
+		<br>
+		<abbr title="Phone">P:</abbr>
+		<span>(123)456&#8209;7890</span>
+		<br>
+		<abbr title="Fax">F:</abbr>
+		<span>(123)456&#8209;7890</span>
+		<br>
+		e-mail: <a href="mailto:office@example.com">office@example.com</a>
+	      </p>
+	      <h6 class="uppercase colored-text">Socials</h6>
+	      <div class="footer-icons">							
+		<a href="http://www.twitter.com"><i class="icon-twitter"></i></a>
+		<a href="http://www.facebook.com"><i class="icon-facebook"></i></a>
+		<a href="http://www.linkedin.com"><i class="icon-linkedin"></i></a>
+		<a href="http://www.google.com"><i class="icon-google-plus"></i></a>																							
+	      </div>
+	    </div>
+	    <!-- CONTACT FORM -->
+	    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 animated-fade">
+	      <form method="post" class="contact-form">
+		<fieldset>
+		  <input type="text" name="name" placeholder="Name" class="col-xs-12 col-sm-12 col-lg-12 input-text" id="namecon">
+		  <input type="text" name="email" placeholder="E-mail" class="col-xs-12 col-sm-12 col-lg-12 input-text" id="emailcon">
+		  <textarea rows="6" name="comments" placeholder="Message" class="col-xs-12 col-sm-12 col-lg-12 input-text" id="commentcon"></textarea>
+		  <div class="btn-wrapper"><input type="button" value="Submit" onClick="ajax.send()" class="uppercase btn btn-primary btn-large btn-input"  id="sendcon"></div>
+		</fieldset>	
+	      </form>		
+	    </div>
+	  </div>																																					
+	</div>
+      </div>
+
+        <div class="copyright green-bg">
+	<div class="contact_bottom bot_angle_right"></div>
+	<div class="container blue">				
+	  <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 bottom-logo">
+	    <a class="navbar-brand smooth" href="#home">
+	      <img src="images/logo.png" alt="logo"/> 
+	    </a>
+	  </div>						
+	  <div class="text-center col-xs-12 col-sm-12 col-md-8 col-lg-8 rights">@2013 Style Interior - All Rights Reserved - Web Design & Development by <a href="#">Style Interior</a></div>									
+	</div>
+      </div>
+
+</div>
 
 
-    /* -- FUN FACTS TIMER -- */
-    $('.timer').one('inview', function(event, isInView, visiblePartX, visiblePartY) {
-    if (isInView) {
-    // element is now visible in the viewport
-    if (visiblePartY == 'top') {
-    // top part of element is visible
-    } else if (visiblePartY == 'bottom') {
-    // bottom part of element is visible
-    } else {
-    // whole part of element is visible
-    }
-    } else {
-    // element has gone out of viewport
-    }
-    
-    jQuery(function ($) {
-    // custom formatting example
-    $('#design').data('countToOptions', {
-    formatter: function (value, options) {
-    return value.toFixed();
-    }
-    });
-    
-    // start all the timers
-    $('.timer').each(count);
-    
-    function count(options) {
-    var $this = $(this);
-    options = $.extend({}, options || {}, $this.data('countToOptions') || {});
-    $this.countTo(options);
-    }
-    });
-    });
-    
-    
-    /* -- ELEMENTS ANIMATION ON SCROLL -- */
-    $(window).scroll(function () {
-    "use strict";
-    var topOfWindow = $(window).scrollTop();
-    
-    function _checkOffset(className) {
-    return function () {
-    var $this = $(this),
-    imagePos = $this.offset().top;
-    
-    $this.toggleClass(className, (imagePos < topOfWindow + 900));
-					     };
-					     }
-
-	$('.headline-left-content').each(_checkOffset('animated fadeIn'));
-	$('.daily-deal').each(_checkOffset('animated tada'));
-	$('.featured-product-image').each(_checkOffset('animated bounceInLeft'));
-	$('.featured-product-text').each(_checkOffset('animated bounceInRight'));
-	$('.featured-product-button').each(_checkOffset('animated bounceInRight'));
-	$('.about-text').each(_checkOffset('animated fadeIn'));
-	$('.nbs-flexisel-container').each(_checkOffset('animated fadeIn'));
-	$('.about-icon').each(_checkOffset('animated bounce'));
-	$('.about-events').each(_checkOffset('animated fadeIn'));
-	$('.about-button').each(_checkOffset('animated fadeIn'));
-	$('.menu-images').each(_checkOffset('animated bounceIn'));
-	$('.menu-titles h1').each(_checkOffset('animated bounceIn'));
-	$('.menu-items').each(_checkOffset('animated bounceIn'));	
-	$('.cn_content').each(_checkOffset('animated bounceInRight'));	
-	$('.cn_list').each(_checkOffset('animated bounceInLeft'));
-	$('.contact-form').each(_checkOffset('animated fadeIn'));	
-	$('.contact-img').each(_checkOffset('animated fadeIn'));
-	$('.contact-details-title').each(_checkOffset('animated fadeIn'));
-	$('.contact-details').each(_checkOffset('animated fadeIn'));
-});
 
 
-/* -- GOOGLE MAP -- */
-window.onload = function () {
-	var styles = [
-	{
-		featureType: 'water', // set the water color
-		elementType: 'geometry.fill', // apply the color only to the fill
-		stylers: [
-			{ color: '#adc9b8' }
-		]
-	},{
-		featureType: 'landscape.natural', // set the natural landscape
-		elementType: 'all',
-		stylers: [
-			{ hue: '#F0A830' },
-			{ lightness: -35 }
-		]
-	},{
-		featureType: 'poi', // set the point of interest
-		elementType: 'geometry',
-		stylers: [
-			{ hue: '#5E3921' },
-			{ lightness: 30 }
-		]
-	},{
-		featureType: 'road', // set the road
-		elementType: 'geometry',
-		stylers: [
-			{ hue: '#5E3921' },
-			{ lightness: 14 }
-		]
-	},{
-		featureType: 'road.local', // set the local road
-		elementType: 'all',
-		stylers: [
-			{ hue: '#D86030' },
-			{ saturation: 100 },
-			{ lightness: -12 }
-		]
-	}
-];
+    <script src="javascripts/jquery-1.10.2.min.js"></script>
+    <script src="javascripts/bootstrap.min.js"></script>
+    <script src="javascripts/modernizr.custom.43083.js"></script>
+    <!--enable responsive features in IE8-->
+    <!--[if IE 8]>
+    <script src="javascripts/respond.min.js"></script>
+    <![endif]-->
+    <script src="javascripts/custom.js"></script>
+    <script src="javascripts/retina.js"></script>
+    <script src="javascripts/jquery.nicescroll.min.js"></script>
+    <script src="javascripts/jquery.easing.1.3.js"></script>	
+    <script src="javascripts/waypoints.min.js"></script>
+    <script src="javascripts/waypoints-sticky.js"></script>	
+    <script type="text/javascript" src="javascripts/jquery.carouFredSel-6.2.1.js"></script>		
+    <script src="javascripts/jquery.isotope.min.js"></script>		
+    <script src="javascripts/jquery.magnific-popup.min.js"></script>
+    <!-- Preloader -->
+    <script type="text/javascript">
+      //<![CDATA[
+	$(window).load(function() { // makes sure the whole site is loaded
+	$("#status").fadeOut(); // will first fade out the loading animation
+	$("#preloader").delay(350).fadeOut("slow"); // will fade out the white DIV that covers the website.
+	})
+      //]]>
+    </script> 	
 
-var myLatlng = new google.maps.LatLng(46.7697715,23.5896877,17);
+  </body>
 
-var options = {
-	mapTypeControlOptions: {
-		mapTypeIds: ['Styled']
-	},
-	center: myLatlng,
-	zoom: 17,
-	disableDefaultUI: false,	
-	mapTypeId: 'Styled'
-};
-var div = document.getElementById('location');
-var map = new google.maps.Map(div, options);
-var styledMapType = new google.maps.StyledMapType(styles, { name: 'Styled' });
-map.mapTypes.set('Styled', styledMapType);
-
-  var marker = new google.maps.Marker({
-      position: myLatlng,
-      map: map,
-      title: 'Yummie Cafe!'
-  });
-  
-};  
-</script>
-
-</body>
-</html> 
+</html>
